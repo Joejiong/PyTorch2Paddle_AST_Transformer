@@ -25,7 +25,7 @@ import six
 import astunparse
 import pprint
 from yapf.yapflib.yapf_api import FormatCode
-from api_upgrade_src.import_transformer import ImportVisitor
+from translate_src.import_transformer import ImportVisitor
 
 
 def transfomer_import_test(root):

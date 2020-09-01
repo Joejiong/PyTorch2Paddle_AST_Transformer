@@ -30,19 +30,19 @@ import concurrent.futures
 
 import paddle
 
-from api_upgrade_src.modify_transformer import AddParamTransformer, DelParamTransformer, RenameParamTransformer, RepAttributeTransformer
-from api_upgrade_src.upgrade_models_api_utils import get_cur_file_list, load_replace_dict, load_modify_dict, check_dir, load_delete_dict
-from api_upgrade_src.upgrade_models_api_utils import print_info, import_module, check_paddle, load_config
-from api_upgrade_src.node_operation import insert_import_module, insert_import_module_with_postion
-from api_upgrade_src.replace_full_name_transformer import PaddleReplaceFullNameTransformer
-from api_upgrade_src.import_transformer import ImportVisitor
-from api_upgrade_src.from_count_transformer import FromCountVisitor
+from translate_src.modify_transformer import AddParamTransformer, DelParamTransformer, RenameParamTransformer, RepAttributeTransformer
+from translate_src.upgrade_models_api_utils import get_cur_file_list, load_replace_dict, load_modify_dict, check_dir, load_delete_dict
+from translate_src.upgrade_models_api_utils import print_info, import_module, check_paddle, load_config
+from translate_src.node_operation import insert_import_module, insert_import_module_with_postion
+from translate_src.replace_full_name_transformer import PaddleReplaceFullNameTransformer
+from translate_src.import_transformer import ImportVisitor
+from translate_src.from_count_transformer import FromCountVisitor
 
 
 BUILD_IN_FUN = dir(__builtins__)
-MODIFY_DICT = "./api_upgrade_src/dict/modify.dict"
-ARGS_FILE = "./api_upgrade_src/conf/upgrade.conf"
-DELETE_DICT = "./api_upgrade_src/dict/delete.dict"
+MODIFY_DICT = "./translate_src/dict/modify.dict"
+ARGS_FILE = "./translate_src/conf/upgrade.conf"
+DELETE_DICT = "./translate_src/dict/delete.dict"
 PROCESS_OR_THREAD = "MULTI_PROCESS"
 MAX_WORKERS = 7
 
@@ -206,12 +206,12 @@ def transformer_file(upgrade_config_dict, input, modify_dict=None,
 def main(upgrade_api_args):
     if not upgrade_api_args.get("args_file", None):
         print(
-            "\033[1;34mPlease set config file!! Default path is api_upgrade_src/conf/upgrade.conf\033[0m"
+            "\033[1;34mPlease set config file!! Default path is translate_src/conf/upgrade.conf\033[0m"
         )
         exit(1)
     if not upgrade_api_args.get("modify_dict", None):
         print(
-            "\033[1;34mPlease set modify_dict file!! Default path is api_upgrade_src/dict/modify.dict\033[0m"
+            "\033[1;34mPlease set modify_dict file!! Default path is translate_src/dict/modify.dict\033[0m"
         )
         exit(1)
 

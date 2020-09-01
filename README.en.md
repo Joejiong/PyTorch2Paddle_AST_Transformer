@@ -19,16 +19,16 @@ English | [简体中文](./README.md)
 ```
 1、paddle_api_upgrade/upgrade_models_api_run.py  # main function
 2、paddle_api_upgrade/run.sh # entry shell
-3、paddle_api_upgrade/api_upgrade_src/upgrade_models_api_utils.py # file operation utility function.
-4、paddle_api_upgrade/api_upgrade_src/modify_transformer.py # API CRUD transformer.
-5、paddle_api_upgrade/api_upgrade_src/import_transformer.py # scanning import module for creating full name api mapping.
-6、paddle_api_upgrade/api_upgrade_src/replace_full_name_transformer.py # via api full name mapping replace api alias.
-7、paddle_api_upgrade/api_upgrade_src/node_operation.py # AST node operation
-8、paddle_api_upgrade/api_upgrade_src/script/restore_comments_spaces.py # script for restoring comments and space after upgrading the code.
-9、paddle_api_upgrade/api_upgrade_src/script/convert_dict.py # Script for transfering excel data to dict data.
-10、paddle_api_upgrade/api_upgrade_src/dict/data.json # json data from raw excel.
-11、paddle_api_upgrade/api_upgrade_src/dict/modify.dict  # Modification dictionary.
-12、paddle_api_upgrade/api_upgrade_src/conf/upgrade.conf  # Intermediate
+3、paddle_api_upgrade/translate_src/upgrade_models_api_utils.py # file operation utility function.
+4、paddle_api_upgrade/translate_src/modify_transformer.py # API CRUD transformer.
+5、paddle_api_upgrade/translate_src/import_transformer.py # scanning import module for creating full name api mapping.
+6、paddle_api_upgrade/translate_src/replace_full_name_transformer.py # via api full name mapping replace api alias.
+7、paddle_api_upgrade/translate_src/node_operation.py # AST node operation
+8、paddle_api_upgrade/translate_src/script/restore_comments_spaces.py # script for restoring comments and space after upgrading the code.
+9、paddle_api_upgrade/translate_src/script/convert_dict.py # Script for transfering excel data to dict data.
+10、paddle_api_upgrade/translate_src/dict/data.json # json data from raw excel.
+11、paddle_api_upgrade/translate_src/dict/modify.dict  # Modification dictionary.
+12、paddle_api_upgrade/translate_src/conf/upgrade.conf  # Intermediate
  configuration file.
 ```
 ## How to Use：
@@ -74,7 +74,7 @@ test description: cd test run
 	test_import_visitor
 
 	# test_project_folder:
-	bash run_mac.sh api_upgrade_src/tests/dygraph_folder_test/transformer/ api_upgrade_src/tests/dygraph_folder_test/output_folder_transformer/
+	bash run_mac.sh translate_src/tests/dygraph_folder_test/transformer/ translate_src/tests/dygraph_folder_test/output_folder_transformer/
 
 	# TODO:
 	test_single_model_file：

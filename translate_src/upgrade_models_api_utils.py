@@ -92,7 +92,7 @@ def get_cur_file_list():
     file_py_list = []
     for root, dirs, files in os.walk("."):
         root = root.lstrip("./")
-        if "api_upgrade_src" in root:
+        if "translate_src" in root:
             continue
         for file in files:
             if "upgrade_models_api_run.py" in file:

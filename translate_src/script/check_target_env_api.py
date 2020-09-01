@@ -21,7 +21,7 @@ import re
 import io
 import os
 import json
-from api_upgrade_src.upgrade_models_api_utils import print_info, import_module, check_paddle, load_config
+from translate_src.upgrade_models_api_utils import print_info, import_module, check_paddle, load_config
 import paddle
 
 REPORT_FOLDER='./report_unusable_api/'

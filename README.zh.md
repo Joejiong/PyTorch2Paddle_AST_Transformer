@@ -19,16 +19,16 @@
 ```
 1、paddle_api_upgrade/upgrade_models_api_run.py  #入口，执行解析流程脚本
 2、paddle_api_upgrade/run.sh #运行脚本
-3、paddle_api_upgrade/api_upgrade_src/upgrade_models_api_utils.py #文件处理操作
-4、paddle_api_upgrade/api_upgrade_src/modify_transformer.py # 接口参数的增，删，改，以及接口替换操作
-5、paddle_api_upgrade/api_upgrade_src/import_transformer.py # 扫描 import 建立 api 全面映射
-6、paddle_api_upgrade/api_upgrade_src/replace_full_name_transformer.py # 通过 api 全面映射 替换api别名
-7、paddle_api_upgrade/api_upgrade_src/node_operation.py # AST内属性和节点的具体操作
-8、paddle_api_upgrade/api_upgrade_src/script/restore_comments_spaces.py #转换后的脚本通过这个脚本恢复注释和空格
-9、paddle_api_upgrade/api_upgrade_src/script/convert_dict.py #excel表格的数据通过这个脚本解析成json文件
-10、paddle_api_upgrade/api_upgrade_src/dict/data.json #excel导出的原始数据
-11、paddle_api_upgrade/api_upgrade_src/dict/modify.dict  #转换需要的json词表
-12、paddle_api_upgrade/api_upgrade_src/conf/upgrade.conf  #接口自动化升级配置文件
+3、paddle_api_upgrade/translate_src/upgrade_models_api_utils.py #文件处理操作
+4、paddle_api_upgrade/translate_src/modify_transformer.py # 接口参数的增，删，改，以及接口替换操作
+5、paddle_api_upgrade/translate_src/import_transformer.py # 扫描 import 建立 api 全面映射
+6、paddle_api_upgrade/translate_src/replace_full_name_transformer.py # 通过 api 全面映射 替换api别名
+7、paddle_api_upgrade/translate_src/node_operation.py # AST内属性和节点的具体操作
+8、paddle_api_upgrade/translate_src/script/restore_comments_spaces.py #转换后的脚本通过这个脚本恢复注释和空格
+9、paddle_api_upgrade/translate_src/script/convert_dict.py #excel表格的数据通过这个脚本解析成json文件
+10、paddle_api_upgrade/translate_src/dict/data.json #excel导出的原始数据
+11、paddle_api_upgrade/translate_src/dict/modify.dict  #转换需要的json词表
+12、paddle_api_upgrade/translate_src/conf/upgrade.conf  #接口自动化升级配置文件
 ```
 ## 使用方法：
 注意：input如果为模型目录，请保证模型目录下的运行脚本可以正常运行，所需要的依赖都正常安装；
@@ -73,7 +73,7 @@ test 说明： cd test run
 	test_import_visitor
 
 	# test_project_folder:
-	bash run_mac.sh api_upgrade_src/tests/dygraph_folder_test/transformer/ api_upgrade_src/tests/dygraph_folder_test/output_folder_transformer/
+	bash run_mac.sh translate_src/tests/dygraph_folder_test/transformer/ translate_src/tests/dygraph_folder_test/output_folder_transformer/
 
 	# TODO:
 	test_single_model_file：

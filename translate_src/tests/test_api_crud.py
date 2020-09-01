@@ -21,9 +21,9 @@ import codegen
 import argparse
 import sys
 import paddle
-from api_upgrade_src.modify_transformer import AddParamTransformer, DelParamTransformer, RenameParamTransformer, RepAttributeTransformer
-from api_upgrade_src.replace_transformer import ReplaceTransformer
-from api_upgrade_src.upgrade_models_api_utils import load_replace_dict, load_modify_dict
+from translate_src.modify_transformer import AddParamTransformer, DelParamTransformer, RenameParamTransformer, RepAttributeTransformer
+from translate_src.replace_transformer import ReplaceTransformer
+from translate_src.upgrade_models_api_utils import load_replace_dict, load_modify_dict
 from yapf.yapflib.yapf_api import FormatCode
 
 

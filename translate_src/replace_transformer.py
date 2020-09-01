@@ -16,8 +16,8 @@ import astor
 import gast
 import inspect
 
-from api_upgrade_src.node_operation import get_attr_full_name
-from api_upgrade_src.upgrade_models_api_utils import print_info
+from translate_src.node_operation import get_attr_full_name
+from translate_src.upgrade_models_api_utils import print_info
 
 
 class ReplaceTransformer(gast.NodeTransformer): 

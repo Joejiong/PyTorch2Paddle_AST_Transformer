@@ -20,12 +20,12 @@ import codegen
 import gast
 import numpy as np
 import inspect
-import dygraph_lenet
+import pytorch_like_paddle_lenet
 import six
 import astunparse
 import pprint
 from yapf.yapflib.yapf_api import FormatCode
-from api_upgrade_src.replace_full_name_transformer import PaddleReplaceFullNameTransformer
+from translate_src.replace_full_name_transformer import PaddleReplaceFullNameTransformer
 
 
 def transfomer_replace_test(root, import_map):
@@ -35,9 +35,7 @@ def transfomer_replace_test(root, import_map):
     from paddle.fluid.dygraph.nn import Conv2D, Pool2D, Linear
     import_map = {
          "fluid": "paddle.fluid",
-         "Conv2D": "paddle.fluid.dygraph.nn.Conv2D",
-         "Pool2D": "paddle.fluid.dygraph.nn.Pool2D",
-         "Linear": "paddle.fluid.dygraph.nn.Linear"
+         "nn": "paddle.fluid.dygraph.nn",
     }
 
     root = gast.parse(inspect.getsource(dygraph_lenet))
@@ -63,9 +61,7 @@ class TestReplaceTransfomer(unittest.TestCase):
     maxDiff = None
     import_dict = import_map = {
         "fluid": "paddle.fluid",
-        "Conv2D": "paddle.fluid.dygraph.nn.Conv2D",
-        "Pool2D": "paddle.fluid.dygraph.nn.Pool2D",
-        "Linear": "paddle.fluid.dygraph.nn.Linear"
+        "nn": "paddle.fluid.dygraph.nn",
     }
 
     def test_replace_full_name_transformer(self, import_map=import_dict):
@@ -74,7 +70,7 @@ class TestReplaceTransfomer(unittest.TestCase):
 import paddle
 import paddle.fluid as fluid
 import numpy as np
-from paddle.fluid.dygraph.nn import Conv2D, Pool2D, Linear
+import paddle.fluid.dygraph.nn as nn
 
 class LeNet(fluid.dygraph.Layer):
 
@@ -100,7 +96,7 @@ class LeNet(fluid.dygraph.Layer):
         return x
         '''
         # captured input
-        input_test = gast.parse(inspect.getsource(dygraph_lenet))
+        input_test = gast.parse(inspect.getsource(pytorch_like_paddle_lenet))
         print("*******original code*******")
         original_code = astor.to_source(gast.gast_to_ast(input_test))
         original_code_formated = FormatCode(original_code)

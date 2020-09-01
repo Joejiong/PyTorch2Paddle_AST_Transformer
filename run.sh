@@ -14,7 +14,7 @@ fi
 INPUT=$1
 OUTPUT=$2
 
-UPGRADE_MDL="api_upgrade_src"
+UPGRADE_MDL="translate_src"
 UPGRADE_FILE="upgrade_models_api_run.py"
 
 CUR_FOLDER=$(dirname $(readlink -f "$0"))
@@ -22,7 +22,7 @@ CUR_FOLDER=$(dirname $(readlink -f "$0"))
 if [ -d ${INPUT} ]
 then
   if [ ! -d ${UPGRADE_MDL} ]; then
-    echo "api_upgrade_src module does not exist, please clone the code"
+    echo "translate_src module does not exist, please clone the code"
     exit 1
   fi
 
@@ -43,7 +43,7 @@ then
 
   cd ${INPUT}
   output_fir="${CUR_FOLDER}/${OUTPUT}"
-  config_file="./api_upgrade_src/conf/upgrade.conf"
+  config_file="./translate_src/conf/upgrade.conf"
   sed -i "1c input_path=${INPUT}" ${config_file}
   sed -i "2c output_path=${output_fir}" ${config_file}
   python3 ${UPGRADE_FILE}
@@ -81,7 +81,7 @@ then
       cd ${dir_name}
   fi
   output_fir="${CUR_FOLDER}/${OUTPUT}"
-  config_file="./api_upgrade_src/conf/upgrade.conf"
+  config_file="./translate_src/conf/upgrade.conf"
   sed -i "1c input_path=${filename}" ${config_file}
   sed -i "2c output_path=${output_fir}" ${config_file}
   python3 ${UPGRADE_FILE}
