@@ -1,0 +1,1270 @@
+{
+    "paddle.fluid.backward.append_backward": {
+        "name": "paddle.append_backward"
+    },
+    "paddle.fluid.backward.gradients": {
+        "name": "paddle.gradients"
+    },
+    "paddle.fluid.clip.GradientClipByGlobalNorm": {
+        "name": "paddle.nn.GradientClipByGlobalNorm"
+    },
+    "paddle.fluid.clip.GradientClipByNorm": {
+        "name": "paddle.nn.GradientClipByNorm"
+    },
+    "paddle.fluid.clip.GradientClipByValue": {
+        "name": "paddle.nn.GradientClipByValue"
+    },
+    "paddle.fluid.compiler.BuildStrategy": {
+        "name": "paddle.BuildStrategy"
+    },
+    "paddle.fluid.compiler.CompiledProgram": {
+        "name": "paddle.CompiledProgram"
+    },
+    "paddle.fluid.compiler.ExecutionStrateg y": {
+        "name": "paddle.framework.ExecutionStrateg y"
+    },
+    "paddle.fluid.core.BackwardStrategy": {
+        "name": "paddle.imperative.BackwardStrategy"
+    },
+    "paddle.fluid.core.CPUPlace": {
+        "name": "paddle.CPUPlace"
+    },
+    "paddle.fluid.core.CUDAPinnedPlace": {
+        "name": "paddle.CUDAPinnedPlace"
+    },
+    "paddle.fluid.core.CUDAPlace": {
+        "name": "paddle.CUDAPlace"
+    },
+    "paddle.fluid.data": {
+        "name": "paddle.nn.data"
+    },
+    "paddle.fluid.dataloader.BatchSampler": {
+        "name": "paddle.io.BatchSampler"
+    },
+    "paddle.fluid.dataloader.Dataset": {
+        "name": "paddle.io.Dataset"
+    },
+    "paddle.fluid.dygraph.BatchNorm": {
+        "name": "paddle.nn.BatchNorm"
+    },
+    "paddle.fluid.dygraph.BilinearTensorProduct": {
+        "name": "paddle.nn.BilinearTensorProduct"
+    },
+    "paddle.fluid.dygraph.Embedding": {
+        "name": "paddle.nn.Embedding"
+    },
+    "paddle.fluid.dygraph.GroupNorm": {
+        "name": "paddle.nn.GroupNorm"
+    },
+    "paddle.fluid.dygraph.LayerNorm": {
+        "name": "paddle.nn.LayerNorm"
+    },
+    "paddle.fluid.dygraph.Linear": {
+        "name": "paddle.nn.Linear"
+    },
+    "paddle.fluid.dygraph.Pool2D": {
+        "name": "paddle.nn.Pool2D"
+    },
+    "paddle.fluid.dygraph.ProgramTranslator": {
+        "name": "paddle.imperative.ProgramTranslator"
+    },
+    "paddle.fluid.dygraph.SpectralNorm": {
+        "name": "paddle.nn.SpectralNorm"
+    },
+    "paddle.fluid.dygraph.base.disable_dygraph": {
+        "name": "paddle.disable_imperative"
+    },
+    "paddle.fluid.dygraph.base.enable_dygraph": {
+        "name": "paddle.enable_imperative"
+    },
+    "paddle.fluid.dygraph.base.enabled": {
+        "name": "paddle.imperative.enabled"
+    },
+    "paddle.fluid.dygraph.base.grad": {
+        "name": "paddle.imperative.grad"
+    },
+    "paddle.fluid.dygraph.base.guard": {
+        "name": "paddle.imperative.guard"
+    },
+    "paddle.fluid.dygraph.base.no_grad": {
+        "name": "paddle.imperative.no_grad"
+    },
+    "paddle.fluid.dygraph.base.to_variable": {
+        "name": "paddle.imperative.to_variable"
+    },
+    "paddle.fluid.dygraph.checkpoint.load_dygraph": {
+        "name": "paddle.imperative.load"
+    },
+    "paddle.fluid.dygraph.checkpoint.save_dygraph": {
+        "name": "paddle.imperative.save"
+    },
+    "paddle.fluid.dygraph.container.LayerList": {
+        "name": "paddle.nn.LayerList"
+    },
+    "paddle.fluid.dygraph.container.ParameterList": {
+        "name": "paddle.nn.ParameterList"
+    },
+    "paddle.fluid.dygraph.container.Sequential": {
+        "name": "paddle.nn.Sequential"
+    },
+    "paddle.fluid.dygraph.jit.TracedLayer": {
+        "name": "paddle.imperative.TracedLayer"
+    },
+    "paddle.fluid.dygraph.jit.declarative": {
+        "name": "paddle.imperative.declarative"
+    },
+    "paddle.fluid.dygraph.layers.Layer": {
+        "name": "paddle.nn.Layer"
+    },
+    "paddle.fluid.dygraph.learning_rate_scheduler.CosineDecay": {
+        "name": "paddle.imperative.CosineDecay"
+    },
+    "paddle.fluid.dygraph.learning_rate_scheduler.ExponentialDecay": {
+        "name": "paddle.imperative.ExponentialDecay"
+    },
+    "paddle.fluid.dygraph.learning_rate_scheduler.InverseTimeDecay": {
+        "name": "paddle.imperative.InverseTimeDecay"
+    },
+    "paddle.fluid.dygraph.learning_rate_scheduler.NaturalExpDecay": {
+        "name": "paddle.imperative.NaturalExpDecay"
+    },
+    "paddle.fluid.dygraph.learning_rate_scheduler.NoamDecay": {
+        "name": "paddle.imperative.NoamDecay"
+    },
+    "paddle.fluid.dygraph.learning_rate_scheduler.PiecewiseDecay": {
+        "name": "paddle.imperative.PiecewiseDecay"
+    },
+    "paddle.fluid.dygraph.learning_rate_scheduler.PolynomialDecay": {
+        "name": "paddle.imperative.PolynomialDecay"
+    },
+    "paddle.fluid.dygraph.parallel.DataParallel": {
+        "name": "paddle.imperative.DataParallel"
+    },
+    "paddle.fluid.dygraph.parallel.ParallelEnv": {
+        "name": "paddle.imperative.ParallelEnv"
+    },
+    "paddle.fluid.dygraph.parallel.prepare_context": {
+        "name": "paddle.imperative.prepare_context"
+    },
+    "paddle.fluid.executor.Executor": {
+        "name": "paddle.Executor"
+    },
+    "paddle.fluid.executor.global_scope": {
+        "name": "paddle.global_scope"
+    },
+    "paddle.fluid.executor.scope_guard": {
+        "name": "paddle.scope_guard"
+    },
+    "paddle.fluid.framework.Program": {
+        "name": "paddle.Program"
+    },
+    "paddle.fluid.framework.Variable": {
+        "name": "paddle.Variable"
+    },
+    "paddle.fluid.framework.default_main_program": {
+        "name": "paddle.default_main_program"
+    },
+    "paddle.fluid.framework.default_startup_program": {
+        "name": "paddle.default_startup_program"
+    },
+    "paddle.fluid.framework.in_dygraph_mode": {
+        "name": "paddle.in_imperative_mode"
+    },
+    "paddle.fluid.framework.name_scope": {
+        "name": "paddle.name_scope"
+    },
+    "paddle.fluid.framework.program_guard": {
+        "name": "paddle.program_guard"
+    },
+    "paddle.fluid.initializer.Bilinear": {
+        "name": "paddle.nn.initializer.Bilinear"
+    },
+    "paddle.fluid.initializer.Constant": {
+        "name": "paddle.nn.initializer.Constant"
+    },
+    "paddle.fluid.initializer.MSRA": {
+        "name": "paddle.nn.initializer.MSRA"
+    },
+    "paddle.fluid.initializer.Normal": {
+        "name": "paddle.nn.initializer.Normal"
+    },
+    "paddle.fluid.initializer.TruncatedNormal": {
+        "name": "paddle.nn.initializer.TruncatedNormal"
+    },
+    "paddle.fluid.initializer.Uniform": {
+        "name": "paddle.nn.initializer.Uniform"
+    },
+    "paddle.fluid.initializer.Xavier": {
+        "name": "paddle.nn.initializer.Xavier"
+    },
+    "paddle.fluid.input.embedding": {
+        "name": "paddle.declarative.embedding"
+    },
+    "paddle.fluid.io.DataLoader": {
+        "name": "paddle.io.DataLoader"
+    },
+    "paddle.fluid.io.batch": {
+        "name": "paddle.io.batch"
+    },
+    "paddle.fluid.io.load": {
+        "name": "paddle.load"
+    },
+    "paddle.fluid.io.load_inference_model": {
+        "name": "paddle.io.load_inference_model"
+    },
+    "paddle.fluid.io.load_program_state": {
+        "name": "paddle.io.load_program_state"
+    },
+    "paddle.fluid.io.save": {
+        "name": "paddle.io.save"
+    },
+    "paddle.fluid.io.save_inference_model": {
+        "name": "paddle.io.save_inference_model"
+    },
+    "paddle.fluid.io.set_program_state": {
+        "name": "paddle.io.set_program_state"
+    },
+    "paddle.fluid.io.shuffle": {
+        "name": "paddle.shuffle"
+    },
+    "paddle.fluid.layers.abs": {
+        "name": "paddle.abs"
+    },
+    "paddle.fluid.layers.acos": {
+        "name": "paddle.acos"
+    },
+    "paddle.fluid.layers.adaptive_pool2d": {
+        "name": "paddle.nn.functional.adaptive_pool2d"
+    },
+    "paddle.fluid.layers.adaptive_pool3d": {
+        "name": "paddle.nn.functional.adaptive_pool3d"
+    },
+    "paddle.fluid.layers.add_position_encoding": {
+        "name": "paddle.nn.functional.add_position_encoding"
+    },
+    "paddle.fluid.layers.affine_channel": {
+        "name": "paddle.nn.functional.affine_channel"
+    },
+    "paddle.fluid.layers.affine_grid": {
+        "name": "paddle.nn.functional.affine_grid"
+    },
+    "paddle.fluid.layers.anchor_generator": {
+        "name": "paddle.nn.functional.anchor_generator"
+    },
+    "paddle.fluid.layers.argmax": {
+        "add": {
+            "dtype": null,
+            "keepdims": false,
+            "name": null,
+            "out": null
+        },
+        "name": "paddle.tensor.argmax",
+        "rename": {
+            "x": "input"
+        }
+    },
+    "paddle.fluid.layers.argmin": {
+        "name": "paddle.argmin"
+    },
+    "paddle.fluid.layers.argsort": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.sort"
+    },
+    "paddle.fluid.layers.asin": {
+        "name": "paddle.asin"
+    },
+    "paddle.fluid.layers.assign": {
+        "name": "paddle.nn.functional.assign"
+    },
+    "paddle.fluid.layers.atan": {
+        "name": "paddle.tensor.atan",
+        "rename": {
+            "x": "input"
+        }
+    },
+    "paddle.fluid.layers.batch_norm": {
+        "name": "paddle.declarative.batch_norm"
+    },
+    "paddle.fluid.layers.beam_search": {
+        "name": "paddle.nn.beam_search"
+    },
+    "paddle.fluid.layers.beam_search_decode": {
+        "name": "paddle.nn.beam_search_decode"
+    },
+    "paddle.fluid.layers.bilinear_tensor_product": {
+        "name": "paddle.declarative.bilinear_tensor_product"
+    },
+    "paddle.fluid.layers.bipartite_match": {
+        "name": "paddle.nn.functional.bipartite_match"
+    },
+    "paddle.fluid.layers.box_clip": {
+        "name": "paddle.nn.functional.box_clip"
+    },
+    "paddle.fluid.layers.box_coder": {
+        "name": "paddle.nn.functional.box_coder"
+    },
+    "paddle.fluid.layers.box_decoder_and_assign": {
+        "name": "paddle.nn.functional.box_decoder_and_assign"
+    },
+    "paddle.fluid.layers.bpr_loss": {
+        "name": "paddle.nn.functional.bpr_loss"
+    },
+    "paddle.fluid.layers.brelu": {
+        "name": "paddle.nn.functional.brelu"
+    },
+    "paddle.fluid.layers.case": {
+        "name": "paddle.nn.case"
+    },
+    "paddle.fluid.layers.cast": {
+        "name": "paddle.cast"
+    },
+    "paddle.fluid.layers.ceil": {
+        "name": "paddle.ceil"
+    },
+    "paddle.fluid.layers.center_loss": {
+        "name": "paddle.nn.functional.center_loss"
+    },
+    "paddle.fluid.layers.clip": {
+        "name": "paddle.nn.clip"
+    },
+    "paddle.fluid.layers.clip_by_norm": {
+        "name": "paddle.nn.clip_by_norm"
+    },
+    "paddle.fluid.layers.collect_fpn_proposals": {
+        "name": "paddle.nn.functional.collect_fpn_proposals"
+    },
+    "paddle.fluid.layers.concat": {
+        "name": "paddle.concat"
+    },
+    "paddle.fluid.layers.cond": {
+        "name": "paddle.nn.cond"
+    },
+    "paddle.fluid.layers.continuous_value_model": {
+        "name": "paddle.nn.functional.continuous_value_model"
+    },
+    "paddle.fluid.layers.control_flow.Print": {
+        "name": "paddle.Print"
+    },
+    "paddle.fluid.layers.conv2d": {
+        "name": "paddle.declarative.conv2d"
+    },
+    "paddle.fluid.layers.conv2d_transpose": {
+        "name": "paddle.declarative.conv2d_transpose"
+    },
+    "paddle.fluid.layers.conv3d": {
+        "name": "paddle.declarative.conv3d"
+    },
+    "paddle.fluid.layers.conv3d_transpose": {
+        "name": "paddle.declarative.conv3d_transpose"
+    },
+    "paddle.fluid.layers.cos": {
+        "name": "paddle.cos"
+    },
+    "paddle.fluid.layers.cosine_decay": {
+        "name": "paddle.nn.functional.cosine_decay"
+    },
+    "paddle.fluid.layers.create_parameter": {
+        "name": "paddle.declarative.create_parameter"
+    },
+    "paddle.fluid.layers.create_tensor": {
+        "name": "paddle.create_tensor"
+    },
+    "paddle.fluid.layers.crf_decoding": {
+        "name": "paddle.declarative.crf_decoding"
+    },
+    "paddle.fluid.layers.crop_tensor": {
+        "name": "paddle.crop_tensor"
+    },
+    "paddle.fluid.layers.cross_entropy": {
+        "name": "paddle.nn.functional.cross_entropy"
+    },
+    "paddle.fluid.layers.cumsum": {
+        "name": "paddle.cumsum"
+    },
+    "paddle.fluid.layers.data_norm": {
+        "name": "paddle.declarative.data_norm"
+    },
+    "paddle.fluid.layers.deformable_conv": {
+        "name": "paddle.declarative.deformable_conv"
+    },
+    "paddle.fluid.layers.deformable_roi_pooling": {
+        "name": "paddle.nn.functional.deformable_roi_pooling"
+    },
+    "paddle.fluid.layers.density_prior_box": {
+        "name": "paddle.nn.functional.density_prior_box"
+    },
+    "paddle.fluid.layers.detection_output": {
+        "name": "paddle.nn.functional.detection_output"
+    },
+    "paddle.fluid.layers.diag": {
+        "name": "paddle.diag"
+    },
+    "paddle.fluid.layers.dice_loss": {
+        "name": "paddle.nn.functional.dice_loss"
+    },
+    "paddle.fluid.layers.distribute_fpn_proposals": {
+        "name": "paddle.nn.functional.distribute_fpn_proposals"
+    },
+    "paddle.fluid.layers.dropout": {
+        "name": "paddle.nn.functional.dropout"
+    },
+    "paddle.fluid.layers.edit_distance": {
+        "name": "paddle.nn.functional.edit_distance"
+    },
+    "paddle.fluid.layers.elementwise_add": {
+        "add": {
+            "alpha": 1,
+            "out": null
+        },
+        "delete": {
+            "act": null,
+            "axis": null
+        },
+        "name": "paddle.tensor.add"
+    },
+    "paddle.fluid.layers.elementwise_div": {
+        "add": {
+            "out": null
+        },
+        "delete": {
+            "act": null,
+            "axis": null
+        },
+        "name": "paddle.tensor.div"
+    },
+    "paddle.fluid.layers.elementwise_floordiv": {
+        "name": "paddle.elementwise_floordiv"
+    },
+    "paddle.fluid.layers.elementwise_max": {
+        "name": "paddle.elementwise_max"
+    },
+    "paddle.fluid.layers.elementwise_min": {
+        "name": "paddle.elementwise_min"
+    },
+    "paddle.fluid.layers.elementwise_mod": {
+        "name": "paddle.elementwise_mod"
+    },
+    "paddle.fluid.layers.elementwise_mul": {
+        "name": "paddle.elementwise_mul"
+    },
+    "paddle.fluid.layers.elementwise_pow": {
+        "name": "paddle.elementwise_pow"
+    },
+    "paddle.fluid.layers.elementwise_sub": {
+        "name": "paddle.elementwise_sub"
+    },
+    "paddle.fluid.layers.elu": {
+        "name": "paddle.nn.functional.elu"
+    },
+    "paddle.fluid.layers.equal": {
+        "add": {
+            "name": null
+        },
+        "delete": {
+            "cond": null
+        },
+        "name": "paddle.tensor.elementwise_equal"
+    },
+    "paddle.fluid.layers.erf": {
+        "name": "paddle.erf"
+    },
+    "paddle.fluid.layers.exp": {
+        "name": "paddle.exp"
+    },
+    "paddle.fluid.layers.expand": {
+        "name": "paddle.expand"
+    },
+    "paddle.fluid.layers.expand_as": {
+        "name": "paddle.expand_as"
+    },
+    "paddle.fluid.layers.exponential_decay": {
+        "name": "paddle.nn.functional.exponential_decay"
+    },
+    "paddle.fluid.layers.eye": {
+        "add": {
+            "out": null,
+            "stop_gradient": true
+        },
+        "delete": {
+            "batch_shape": null
+        },
+        "name": "paddle.tensor.eye",
+        "rename": {
+            "num_columns": "m",
+            "num_row": "n"
+        }
+    },
+    "paddle.fluid.layers.fc": {
+        "name": "paddle.declarative.fc"
+    },
+    "paddle.fluid.layers.fill_constant": {
+        "name": "paddle.tensor.fill_constant"
+    },
+    "paddle.fluid.layers.filter_by_instag": {
+        "name": "paddle.nn.functional.filter_by_instag"
+    },
+    "paddle.fluid.layers.flatten": {
+        "name": "paddle.flatten"
+    },
+    "paddle.fluid.layers.floor": {
+        "name": "paddle.floor"
+    },
+    "paddle.fluid.layers.fsp_matrix": {
+        "name": "paddle.nn.functional.fsp_matrix"
+    },
+    "paddle.fluid.layers.gather": {
+        "name": "paddle.tensor.gather"
+    },
+    "paddle.fluid.layers.gather_nd": {
+        "name": "paddle.gather_nd"
+    },
+    "paddle.fluid.layers.gather_tree": {
+        "name": "paddle.nn.gather_tree"
+    },
+    "paddle.fluid.layers.gelu": {
+        "name": "paddle.nn.functional.gelu"
+    },
+    "paddle.fluid.layers.generate_mask_labels": {
+        "name": "paddle.nn.functional.generate_mask_labels"
+    },
+    "paddle.fluid.layers.generate_proposal_labels": {
+        "name": "paddle.nn.functional.generate_proposal_labels"
+    },
+    "paddle.fluid.layers.generate_proposals": {
+        "name": "paddle.nn.functional.generate_proposals"
+    },
+    "paddle.fluid.layers.greater_equal": {
+        "name": "paddle.greater_equal"
+    },
+    "paddle.fluid.layers.greater_than": {
+        "name": "paddle.greater_than"
+    },
+    "paddle.fluid.layers.grid_sampler": {
+        "name": "paddle.nn.functional.grid_sampler"
+    },
+    "paddle.fluid.layers.group_norm": {
+        "name": "paddle.declarative.group_norm"
+    },
+    "paddle.fluid.layers.hard_shrink": {
+        "name": "paddle.nn.functional.hard_shrink"
+    },
+    "paddle.fluid.layers.hard_sigmoid": {
+        "name": "paddle.nn.functional.hard_sigmoid"
+    },
+    "paddle.fluid.layers.hard_swish": {
+        "name": "paddle.nn.functional.hard_swish"
+    },
+    "paddle.fluid.layers.has_inf": {
+        "name": "paddle.has_inf"
+    },
+    "paddle.fluid.layers.has_nan": {
+        "name": "paddle.has_nan"
+    },
+    "paddle.fluid.layers.hash": {
+        "name": "paddle.nn.functional.hash"
+    },
+    "paddle.fluid.layers.hsigmoid": {
+        "name": "paddle.declarative.hsigmoid"
+    },
+    "paddle.fluid.layers.huber_loss": {
+        "name": "paddle.nn.functional.huber_loss"
+    },
+    "paddle.fluid.layers.image_resize": {
+        "name": "paddle.nn.functional.image_resize"
+    },
+    "paddle.fluid.layers.image_resize_short": {
+        "name": "paddle.nn.functional.image_resize_short"
+    },
+    "paddle.fluid.layers.increment": {
+        "name": "paddle.increment"
+    },
+    "paddle.fluid.layers.instance_norm": {
+        "name": "paddle.declarative.instance_norm"
+    },
+    "paddle.fluid.layers.inverse_time_decay": {
+        "name": "paddle.nn.functional.inverse_time_decay"
+    },
+    "paddle.fluid.layers.iou_similarity": {
+        "name": "paddle.nn.functional.iou_similarity"
+    },
+    "paddle.fluid.layers.is_empty": {
+        "name": "paddle.is_empty"
+    },
+    "paddle.fluid.layers.isfinite": {
+        "name": "paddle.isfinite"
+    },
+    "paddle.fluid.layers.kldiv_loss": {
+        "name": "paddle.nn.functional.kldiv_loss"
+    },
+    "paddle.fluid.layers.l2_normalize": {
+        "name": "paddle.nn.functional.l2_normalize"
+    },
+    "paddle.fluid.layers.label_smooth": {
+        "name": "paddle.nn.functional.label_smooth"
+    },
+    "paddle.fluid.layers.layer_norm": {
+        "name": "paddle.declarative.layer_norm"
+    },
+    "paddle.fluid.layers.leaky_relu": {
+        "name": "paddle.nn.functional.leaky_relu"
+    },
+    "paddle.fluid.layers.less_equal": {
+        "name": "paddle.less_equal"
+    },
+    "paddle.fluid.layers.less_than": {
+        "name": "paddle.less_than"
+    },
+    "paddle.fluid.layers.linear_lr_warmup": {
+        "name": "paddle.nn.functional.linear_lr_warmup"
+    },
+    "paddle.fluid.layers.linspace": {
+        "add": {
+            "device": null,
+            "name": null,
+            "out": null
+        },
+        "name": "paddle.tensor.linspace"
+    },
+    "paddle.fluid.layers.log": {
+        "name": "paddle.log"
+    },
+    "paddle.fluid.layers.log_loss": {
+        "name": "paddle.nn.functional.log_loss"
+    },
+    "paddle.fluid.layers.logical_and": {
+        "name": "paddle.logical_and"
+    },
+    "paddle.fluid.layers.logical_not": {
+        "name": "paddle.logical_not"
+    },
+    "paddle.fluid.layers.logical_or": {
+        "name": "paddle.logical_or"
+    },
+    "paddle.fluid.layers.logical_xor": {
+        "name": "paddle.logical_xor"
+    },
+    "paddle.fluid.layers.logsigmoid": {
+        "name": "paddle.nn.functional.logsigmoid"
+    },
+    "paddle.fluid.layers.lrn": {
+        "name": "paddle.nn.functional.lrn"
+    },
+    "paddle.fluid.layers.margin_rank_loss": {
+        "name": "paddle.nn.functional.margin_rank_loss"
+    },
+    "paddle.fluid.layers.matmul": {
+        "name": "paddle.tensor.matmul"
+    },
+    "paddle.fluid.layers.maxout": {
+        "name": "paddle.nn.functional.maxout"
+    },
+    "paddle.fluid.layers.mean": {
+        "name": "paddle.mean"
+    },
+    "paddle.fluid.layers.metric_op.accuracy": {
+        "name": "paddle.metric.accuracy"
+    },
+    "paddle.fluid.layers.metric_op.auc": {
+        "name": "paddle.metric.auc"
+    },
+    "paddle.fluid.layers.mse_loss": {
+        "name": "paddle.nn.functional.mse_loss"
+    },
+    "paddle.fluid.layers.mul": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.mul"
+    },
+    "paddle.fluid.layers.multi_box_head": {
+        "name": "paddle.declarative.multi_box_head"
+    },
+    "paddle.fluid.layers.multiclass_nms": {
+        "name": "paddle.nn.functional.multiclass_nms"
+    },
+    "paddle.fluid.layers.multiplex": {
+        "name": "paddle.multiplex"
+    },
+    "paddle.fluid.layers.natural_exp_decay": {
+        "name": "paddle.nn.functional.natural_exp_decay"
+    },
+    "paddle.fluid.layers.nce": {
+        "name": "paddle.declarative.nce"
+    },
+    "paddle.fluid.layers.nn.chunk_eval": {
+        "name": "paddle.metric.chunk_eval"
+    },
+    "paddle.fluid.layers.nn.cos_sim": {
+        "name": "paddle.metric.cos_sim"
+    },
+    "paddle.fluid.layers.nn.mean_iou": {
+        "name": "paddle.metric.mean_iou"
+    },
+    "paddle.fluid.layers.nn.py_func": {
+        "name": "paddle.py_func"
+    },
+    "paddle.fluid.layers.noam_decay": {
+        "name": "paddle.nn.functional.noam_decay"
+    },
+    "paddle.fluid.layers.not_equal": {
+        "name": "paddle.not_equal"
+    },
+    "paddle.fluid.layers.npair_loss": {
+        "name": "paddle.nn.functional.npair_loss"
+    },
+    "paddle.fluid.layers.ones": {
+        "add": {
+            "device": null,
+            "out": null
+        },
+        "name": "paddle.tensor.ones"
+    },
+    "paddle.fluid.layers.ones_like": {
+        "add": {
+            "device": null,
+            "dtype": null,
+            "name": null
+        },
+        "name": "paddle.tensor.ones_like"
+    },
+    "paddle.fluid.layers.pad": {
+        "name": "paddle.nn.functional.pad"
+    },
+    "paddle.fluid.layers.pad2d": {
+        "name": "paddle.nn.functional.pad2d"
+    },
+    "paddle.fluid.layers.pad_constant_like": {
+        "name": "paddle.nn.functional.pad_constant_like"
+    },
+    "paddle.fluid.layers.piecewise_decay": {
+        "name": "paddle.nn.functional.piecewise_decay"
+    },
+    "paddle.fluid.layers.pixel_shuffle": {
+        "name": "paddle.nn.functional.pixel_shuffle"
+    },
+    "paddle.fluid.layers.polygon_box_transform": {
+        "name": "paddle.nn.functional.polygon_box_transform"
+    },
+    "paddle.fluid.layers.polynomial_decay": {
+        "name": "paddle.nn.functional.polynomial_decay"
+    },
+    "paddle.fluid.layers.pool2d": {
+        "name": "paddle.nn.functional.pool2d"
+    },
+    "paddle.fluid.layers.pool3d": {
+        "name": "paddle.nn.functional.pool3d"
+    },
+    "paddle.fluid.layers.pow": {
+        "rename": {
+            "x": "input",
+            "factor": "exponent"
+        },
+        "name": "paddle.tensor.pow",
+        "add": {
+            "out": null
+        }
+    },
+    "paddle.fluid.layers.prelu": {
+        "name": "paddle.declarative.prelu"
+    },
+    "paddle.fluid.layers.prior_box": {
+        "name": "paddle.nn.functional.prior_box"
+    },
+    "paddle.fluid.layers.prroi_pool": {
+        "name": "paddle.nn.functional.prroi_pool"
+    },
+    "paddle.fluid.layers.psroi_pool": {
+        "name": "paddle.nn.functional.psroi_pool"
+    },
+    "paddle.fluid.layers.random_crop": {
+        "name": "paddle.nn.functional.random_crop"
+    },
+    "paddle.fluid.layers.range": {
+        "add": {
+            "name": null
+        },
+        "name": "paddle.tensor.arange"
+    },
+    "paddle.fluid.layers.rank": {
+        "name": "paddle.rank"
+    },
+    "paddle.fluid.layers.rank_loss": {
+        "name": "paddle.nn.functional.rank_loss"
+    },
+    "paddle.fluid.layers.reciprocal": {
+        "name": "paddle.reciprocal"
+    },
+    "paddle.fluid.layers.reduce_all": {
+        "name": "paddle.reduce_all"
+    },
+    "paddle.fluid.layers.reduce_any": {
+        "name": "paddle.reduce_any"
+    },
+    "paddle.fluid.layers.reduce_max": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.max"
+    },
+    "paddle.fluid.layers.reduce_mean": {
+        "name": "paddle.reduce_mean"
+    },
+    "paddle.fluid.layers.reduce_min": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.min"
+    },
+    "paddle.fluid.layers.reduce_prod": {
+        "name": "paddle.reduce_prod"
+    },
+    "paddle.fluid.layers.reduce_sum": {
+        "name": "paddle.tensor.sum",
+        "rename": {
+            "dim": "axis"
+        }
+    },
+    "paddle.fluid.layers.relu6": {
+        "name": "paddle.nn.functional.relu6"
+    },
+    "paddle.fluid.layers.reshape": {
+        "name": "paddle.reshape"
+    },
+    "paddle.fluid.layers.resize_bilinear": {
+        "name": "paddle.nn.functional.resize_bilinear"
+    },
+    "paddle.fluid.layers.resize_nearest": {
+        "name": "paddle.nn.functional.resize_nearest"
+    },
+    "paddle.fluid.layers.resize_trilinear": {
+        "name": "paddle.nn.functional.resize_trilinear"
+    },
+    "paddle.fluid.layers.retinanet_detection_output": {
+        "name": "paddle.nn.functional.retinanet_detection_output"
+    },
+    "paddle.fluid.layers.retinanet_target_assign": {
+        "name": "paddle.nn.functional.retinanet_target_assign"
+    },
+    "paddle.fluid.layers.reverse": {
+        "name": "paddle.reverse"
+    },
+    "paddle.fluid.layers.roi_align": {
+        "name": "paddle.nn.functional.roi_align"
+    },
+    "paddle.fluid.layers.roi_perspective_transform": {
+        "name": "paddle.nn.functional.roi_perspective_transform"
+    },
+    "paddle.fluid.layers.roi_pool": {
+        "name": "paddle.nn.functional.roi_pool"
+    },
+    "paddle.fluid.layers.round": {
+        "name": "paddle.round"
+    },
+    "paddle.fluid.layers.row_conv": {
+        "name": "paddle.declarative.row_conv"
+    },
+    "paddle.fluid.layers.rpn_target_assign": {
+        "name": "paddle.nn.functional.rpn_target_assign"
+    },
+    "paddle.fluid.layers.rsqrt": {
+        "name": "paddle.rsqrt"
+    },
+    "paddle.fluid.layers.sampled_softmax_with_cross_entropy": {
+        "name": "paddle.nn.functional.sampled_softmax_with_cross_entropy"
+    },
+    "paddle.fluid.layers.scale": {
+        "name": "paddle.scale"
+    },
+    "paddle.fluid.layers.scatter": {
+        "name": "paddle.scatter"
+    },
+    "paddle.fluid.layers.scatter_nd": {
+        "name": "paddle.scatter_nd"
+    },
+    "paddle.fluid.layers.scatter_nd_add": {
+        "name": "paddle.scatter_nd_add"
+    },
+    "paddle.fluid.layers.selu": {
+        "name": "paddle.nn.functional.selu"
+    },
+    "paddle.fluid.layers.shape": {
+        "name": "paddle.shape"
+    },
+    "paddle.fluid.layers.shard_index": {
+        "name": "paddle.shard_index"
+    },
+    "paddle.fluid.layers.shuffle_channel": {
+        "name": "paddle.nn.functional.shuffle_channel"
+    },
+    "paddle.fluid.layers.sigmoid": {
+        "name": "paddle.nn.Sigmoid",
+        "rename": {
+            "x": "input"
+        },
+        "delete": {
+            "name": null
+        },
+        "add": {
+            "inplace": false
+        }
+    },
+    "paddle.fluid.layers.sigmoid_cross_entropy_with_logits": {
+        "name": "paddle.nn.functional.sigmoid_cross_entropy_with_logits"
+    },
+    "paddle.fluid.layers.sigmoid_focal_loss": {
+        "name": "paddle.nn.functional.sigmoid_focal_loss"
+    },
+    "paddle.fluid.layers.sign": {
+        "name": "paddle.sign"
+    },
+    "paddle.fluid.layers.similarity_focus": {
+        "name": "paddle.nn.functional.similarity_focus"
+    },
+    "paddle.fluid.layers.sin": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.sin",
+        "rename": {
+            "x": "input"
+        }
+    },
+    "paddle.fluid.layers.slice": {
+        "name": "paddle.slice"
+    },
+    "paddle.fluid.layers.smooth_l1": {
+        "name": "paddle.nn.functional.smooth_l1"
+    },
+    "paddle.fluid.layers.soft_relu": {
+        "name": "paddle.nn.functional.soft_relu"
+    },
+    "paddle.fluid.layers.softmax": {
+        "name": "paddle.nn.functional.softmax"
+    },
+    "paddle.fluid.layers.softmax_with_cross_entropy": {
+        "name": "paddle.nn.functional.softmax_with_cross_entropy"
+    },
+    "paddle.fluid.layers.softplus": {
+        "name": "paddle.nn.functional.softplus"
+    },
+    "paddle.fluid.layers.softshrink": {
+        "name": "paddle.nn.functional.softshrink"
+    },
+    "paddle.fluid.layers.softsign": {
+        "name": "paddle.nn.functional.softsign"
+    },
+    "paddle.fluid.layers.space_to_depth": {
+        "name": "paddle.nn.functional.space_to_depth"
+    },
+    "paddle.fluid.layers.spectral_norm": {
+        "name": "paddle.declarative.spectral_norm"
+    },
+    "paddle.fluid.layers.split": {
+        "name": "paddle.tensor.split"
+    },
+    "paddle.fluid.layers.sqrt": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.sqrt"
+    },
+    "paddle.fluid.layers.square": {
+        "name": "paddle.square"
+    },
+    "paddle.fluid.layers.square_error_cost": {
+        "name": "paddle.nn.functional.square_error_cost"
+    },
+    "paddle.fluid.layers.squeeze": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.squeeze"
+    },
+    "paddle.fluid.layers.ssd_loss": {
+        "name": "paddle.nn.functional.ssd_loss"
+    },
+    "paddle.fluid.layers.stack": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.stack",
+        "rename": {
+            "x": "input"
+        }
+    },
+    "paddle.fluid.layers.stanh": {
+        "name": "paddle.stanh"
+    },
+    "paddle.fluid.layers.strided_slice": {
+        "name": "paddle.strided_slice"
+    },
+    "paddle.fluid.layers.sums": {
+        "name": "paddle.sums"
+    },
+    "paddle.fluid.layers.swish": {
+        "name": "paddle.nn.functional.swish"
+    },
+    "paddle.fluid.layers.switch_case": {
+        "name": "paddle.nn.switch_case"
+    },
+    "paddle.fluid.layers.tanh": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.tanh",
+        "rename": {
+            "x": "input"
+        }
+    },
+    "paddle.fluid.layers.tanh_shrink": {
+        "name": "paddle.nn.functional.tanh_shrink"
+    },
+    "paddle.fluid.layers.target_assign": {
+        "name": "paddle.nn.functional.target_assign"
+    },
+    "paddle.fluid.layers.teacher_student_sigmoid_loss": {
+        "name": "paddle.nn.functional.teacher_student_sigmoid_loss"
+    },
+    "paddle.fluid.layers.temporal_shift": {
+        "name": "paddle.nn.functional.temporal_shift"
+    },
+    "paddle.fluid.layers.tensor.create_global_var": {
+        "name": "paddle.create_global_var"
+    },
+    "paddle.fluid.layers.tensor.create_parameter": {
+        "name": "paddle.create_parameter"
+    },
+    "paddle.fluid.layers.thresholded_relu": {
+        "name": "paddle.nn.functional.thresholded_relu"
+    },
+    "paddle.fluid.layers.relu": {
+        "name": "paddle.nn.functional.relu"
+    },
+    "paddle.fluid.layers.topk": {
+        "name": "paddle.topk"
+    },
+    "paddle.fluid.layers.transpose": {
+        "name": "paddle.transpose"
+    },
+    "paddle.fluid.layers.unfold": {
+        "name": "paddle.nn.functional.unfold"
+    },
+    "paddle.fluid.layers.unique": {
+        "name": "paddle.unique"
+    },
+    "paddle.fluid.layers.unique_with_counts": {
+        "name": "paddle.unique_with_counts"
+    },
+    "paddle.fluid.layers.unsqueeze": {
+        "add": {
+            "out": null
+        },
+        "name": "paddle.tensor.unsqueeze"
+    },
+    "paddle.fluid.layers.unstack": {
+        "name": "paddle.unstack"
+    },
+    "paddle.fluid.layers.warpctc": {
+        "name": "paddle.nn.functional.warpctc"
+    },
+    "paddle.fluid.layers.while_loop": {
+        "name": "paddle.nn.while_loop"
+    },
+    "paddle.fluid.layers.yolo_box": {
+        "name": "paddle.nn.functional.yolo_box"
+    },
+    "paddle.fluid.layers.yolov3_loss": {
+        "name": "paddle.nn.functional.yolov3_loss"
+    },
+    "paddle.fluid.layers.zeros": {
+        "add": {
+            "device": null,
+            "out": null
+        },
+        "delete": {
+            "force_cpu": null
+        },
+        "name": "paddle.tensor.zeros"
+    },
+    "paddle.fluid.layers.zeros_like": {
+        "add": {
+            "device": null,
+            "dtype": null,
+            "name": null
+        },
+        "name": "paddle.tensor.zeros_like",
+        "rename": {
+            "x": "input"
+        }
+    },
+    "paddle.fluid.metrics.Accuracy": {
+        "name": "paddle.metric.Accuracy"
+    },
+    "paddle.fluid.metrics.Auc": {
+        "name": "paddle.metric.Auc"
+    },
+    "paddle.fluid.metrics.ChunkEvaluator": {
+        "name": "paddle.metric.ChunkEvaluator"
+    },
+    "paddle.fluid.metrics.CompositeMetric": {
+        "name": "paddle.metric.CompositeMetric"
+    },
+    "paddle.fluid.metrics.DetectionMAP": {
+        "name": "paddle.metric.DetectionMAP"
+    },
+    "paddle.fluid.metrics.EditDistance": {
+        "name": "paddle.metric.EditDistance"
+    },
+    "paddle.fluid.metrics.Precision": {
+        "name": "paddle.metric.Precision"
+    },
+    "paddle.fluid.metrics.Recall": {
+        "name": "paddle.metric.Recall"
+    },
+    "paddle.fluid.one_hot": {
+        "name": "paddle.nn.functional.one_hot"
+    },
+    "paddle.fluid.optimizer.Adadelta": {
+        "name": "paddle.optimizer.Adadelta"
+    },
+    "paddle.fluid.optimizer.AdadeltaOptimizer": {
+        "name": "paddle.optimizer.AdadeltaOptimizer"
+    },
+    "paddle.fluid.optimizer.Adagrad": {
+        "name": "paddle.optimizer.Adagrad"
+    },
+    "paddle.fluid.optimizer.AdagradOptimizer": {
+        "name": "paddle.optimizer.AdagradOptimizer"
+    },
+    "paddle.fluid.optimizer.Adam": {
+        "name": "paddle.optimizer.Adam"
+    },
+    "paddle.fluid.optimizer.AdamOptimizer": {
+        "name": "paddle.optimizer.AdamOptimizer"
+    },
+    "paddle.fluid.optimizer.Adamax": {
+        "name": "paddle.optimizer.Adamax"
+    },
+    "paddle.fluid.optimizer.AdamaxOptimizer": {
+        "name": "paddle.optimizer.AdamaxOptimizer"
+    },
+    "paddle.fluid.optimizer.DGCMomentumOptimizer": {
+        "name": "paddle.optimizer.DGCMomentumOptimizer"
+    },
+    "paddle.fluid.optimizer.DecayedAdagrad": {
+        "name": "paddle.optimizer.DecayedAdagrad"
+    },
+    "paddle.fluid.optimizer.DecayedAdagradOptimizer": {
+        "name": "paddle.optimizer.DecayedAdagradOptimizer"
+    },
+    "paddle.fluid.optimizer.Dpsgd": {
+        "name": "paddle.optimizer.Dpsgd"
+    },
+    "paddle.fluid.optimizer.DpsgdOptimizer": {
+        "name": "paddle.optimizer.DpsgdOptimizer"
+    },
+    "paddle.fluid.optimizer.ExponentialMovingAverage": {
+        "name": "paddle.optimizer.ExponentialMovingAverage"
+    },
+    "paddle.fluid.optimizer.Ftrl": {
+        "name": "paddle.optimizer.Ftrl"
+    },
+    "paddle.fluid.optimizer.FtrlOptimizer": {
+        "name": "paddle.optimizer.FtrlOptimizer"
+    },
+    "paddle.fluid.optimizer.LambOptimizer": {
+        "name": "paddle.optimizer.LambOptimizer"
+    },
+    "paddle.fluid.optimizer.LarsMomentum": {
+        "name": "paddle.optimizer.LarsMomentum"
+    },
+    "paddle.fluid.optimizer.LarsMomentumOptimizer": {
+        "name": "paddle.optimizer.LarsMomentumOptimizer"
+    },
+    "paddle.fluid.optimizer.LookaheadOptimizer": {
+        "name": "paddle.optimizer.LookaheadOptimizer"
+    },
+    "paddle.fluid.optimizer.ModelAverage": {
+        "name": "paddle.optimizer.ModelAverage"
+    },
+    "paddle.fluid.optimizer.Momentum": {
+        "name": "paddle.optimizer.Momentum"
+    },
+    "paddle.fluid.optimizer.MomentumOptimizer": {
+        "name": "paddle.optimizer.MomentumOptimizer"
+    },
+    "paddle.fluid.optimizer.PipelineOptimizer": {
+        "name": "paddle.optimizer.PipelineOptimizer"
+    },
+    "paddle.fluid.optimizer.RMSPropOptimizer": {
+        "name": "paddle.optimizer.RMSPropOptimizer"
+    },
+    "paddle.fluid.optimizer.RecomputeOptimizer": {
+        "name": "paddle.optimizer.RecomputeOptimizer"
+    },
+    "paddle.fluid.optimizer.SGD": {
+        "name": "paddle.optimizer.SGD"
+    },
+    "paddle.fluid.optimizer.SGDOptimizer": {
+        "name": "paddle.optimizer.SGDOptimizer"
+    },
+    "paddle.fluid.parallel_executor.ParallelExecutor": {
+        "name": "paddle.ParallelExecutor"
+    },
+    "paddle.fluid.param_attr.ParamAttr": {
+        "name": "paddle.ParamAttr"
+    },
+    "paddle.fluid.param_attr.WeightNormParamAttr": {
+        "name": "paddle.WeightNormParamAttr"
+    },
+    "paddle.fluid.save": {
+        "name": "paddle.save"
+    },
+    "______new_staff_____": {
+        "_new_best_practice": "_dygraph_"
+    },
+    "paddle.fluid.dygraph.nn.Conv2d":{
+        "name":"paddle.nn.Conv2D"
+    },
+    "paddle.fluid.dygraph.nn.Linear":{
+        "name":"paddle.nn.Linear"
+    },
+    "paddle.fluid.dygraph.nn.Pool2D":{
+        "name":"paddle.nn.Pool2D"
+    },
+    "paddle.fluid.dygraph.nn.Conv2D":{
+        "name":"paddle.nn.Conv2D"
+    },
+    "paddle.fluid.dygraph.nn.BatchNorm": {
+        "name": "paddle.nn.BatchNorm"
+    },
+    "paddle.fluid.dygraph.nn.BilinearTensorProduct": {
+        "name": "paddle.nn.BilinearTensorProduct"
+    },
+    "paddle.fluid.dygraph.nn.Embedding": {
+        "name": "paddle.nn.Embedding"
+    },
+    "paddle.fluid.dygraph.nn.GroupNorm": {
+        "name": "paddle.nn.GroupNorm"
+    },
+    "paddle.fluid.dygraph.nn.LayerNorm": {
+        "name": "paddle.nn.LayerNorm"
+    },
+    "paddle.fluid.dygraph.nn.SpectralNorm": {
+        "name": "paddle.nn.SpectralNorm"
+    },
+    "paddle.fluid.dygraph.nn.container.ParameterList": {
+        "name": "paddle.nn.ParameterList"
+    },
+    "paddle.fluid.dygraph.nn.container.Sequential": {
+        "name": "paddle.nn.Sequential"
+    },
+    "paddle.fluid.CUDAPlace": {
+        "name": "paddle.CUDAPlace"
+    },
+    "paddle.fluid.layers.accuracy": {
+        "name": "paddle.metric.accuracy"
+    }
+}

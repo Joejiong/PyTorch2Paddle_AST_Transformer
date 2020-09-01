@@ -1,0 +1,2 @@
+input_path=../../../dialogue_domain_classification/
+output_path=/Users/wujionghao/Documents/upgrade_folder_demo/baidu/personal-code/paddle_api_upgrade/../../../output_folder/

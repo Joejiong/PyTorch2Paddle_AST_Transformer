@@ -1,0 +1,60 @@
+# Virtualenv
+/.venv/
+/venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+/bin/
+/build/
+/develop-eggs/
+/dist/
+/eggs/
+/lib/
+/lib64/
+/output/
+/parts/
+/sdist/
+/var/
+/*.egg-info/
+/.installed.cfg
+/*.egg
+/.eggs
+
+# AUTHORS and ChangeLog will be generated while packaging
+/AUTHORS
+/ChangeLog
+
+# BCloud / BuildSubmitter
+/build_submitter.*
+/logger_client_log
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+.pytest_cache
+nosetests.xml
+coverage.xml
+/tests/static_folder_test/dialogue_domain_classification/model/
+/tests/static_folder_test/ouput_folder_dialogue_domain_classification/
+/test/dygraph_folder_test/output_folder_transformer/
+
+
+# Translations
+*.mo
+
+# Sphinx documentation
+/docs/_build/
+
+# mac related
+.DS_Store

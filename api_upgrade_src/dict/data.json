@@ -1,0 +1,1152 @@
+{
+    "Sheet1": [
+        {
+            "paddle.17": "paddle.fluid.layers.transpose", 
+            "paddle2.0": "paddle.transpose"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.gelu", 
+            "paddle2.0": "paddle.nn.functional.gelu"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.clip_by_norm", 
+            "paddle2.0": "paddle.nn.clip_by_norm"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.mul", 
+            "paddle2.0": "paddle.mul"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.sin", 
+            "paddle2.0": "paddle.sin", 
+            "rename": "x=input"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.NoamDecay", 
+            "paddle2.0": "paddle.imperative.NoamDecay"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.map_readers", 
+            "paddle2.0": "paddle.io.map_readers"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.scatter_nd_add", 
+            "paddle2.0": "paddle.scatter_nd_add"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.similarity_focus", 
+            "paddle2.0": "paddle.nn.functional.similarity_focus"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.reduce_min", 
+            "paddle2.0": "paddle.min"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.split", 
+            "paddle2.0": "paddle.split", 
+            "rename": "dim=axis"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.AdagradOptimizer", 
+            "paddle2.0": "paddle.optimizer.AdagradOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.clip.GradientClipByNorm", 
+            "paddle2.0": "paddle.nn.GradientClipByNorm"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.one_hot", 
+            "paddle2.0": "paddle.nn.functional.one_hot"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.maxout", 
+            "paddle2.0": "paddle.nn.functional.maxout"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.reduce_max", 
+            "paddle2.0": "paddle.max"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.CUDAPinnedPlace", 
+            "paddle2.0": "paddle.CUDAPinnedPlace"
+        }, 
+        {
+            "add": "replace=False", 
+            "paddle.17": "paddle.fluid.layers.relu", 
+            "paddle2.0": "paddle.nn.ReLU"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.CPUPlace", 
+            "paddle2.0": "paddle.CPUPlace"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.RecomputeOptimizer", 
+            "paddle2.0": "paddle.optimizer.RecomputeOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.multiprocess_reader", 
+            "paddle2.0": "paddle.reader.multiprocess_reader"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.mean", 
+            "paddle2.0": "paddle.mean"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.log", 
+            "paddle2.0": "paddle.log"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.random_crop", 
+            "paddle2.0": "paddle.nn.functional.random_crop"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.DecayedAdagradOptimizer", 
+            "paddle2.0": "paddle.optimizer.DecayedAdagradOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.contrib.index_sample", 
+            "paddle2.0": "paddle.index_sample"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.leaky_relu", 
+            "paddle2.0": "paddle.nn.functional.leaky_relu"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.auc", 
+            "paddle2.0": "paddle.metric.auc"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.chain", 
+            "paddle2.0": "paddle.io.chain"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Layer", 
+            "paddle2.0": "paddle.nn.Layer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.elementwise_mod", 
+            "paddle2.0": "paddle.elementwise_mod"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.logical_xor", 
+            "paddle2.0": "paddle.logical_xor"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.unsqueeze", 
+            "paddle2.0": "paddle.unsqueeze"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.round", 
+            "paddle2.0": "paddle.round"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.clip.GradientClipByGlobalNorm", 
+            "paddle2.0": "paddle.nn.GradientClipByGlobalNorm"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.initializer.Xavier", 
+            "paddle2.0": "paddle.nn.initializer.Xavier"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.backward.gradients", 
+            "paddle2.0": "paddle.gradients"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.dropout", 
+            "paddle2.0": "paddle.nn.functional.dropout"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.LarsMomentum", 
+            "paddle2.0": "paddle.optimizer.LarsMomentum"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.topk", 
+            "paddle2.0": "paddle.topk"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.AdamaxOptimizer", 
+            "paddle2.0": "paddle.optimizer.AdamaxOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.sigmoid", 
+            "paddle2.0": "paddle.nn.Sigmoid"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.DataLoader", 
+            "paddle2.0": "paddle.io.DataLoader"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.LambOptimizer", 
+            "paddle2.0": "paddle.optimizer.LambOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.buffered", 
+            "paddle2.0": "paddle.io.buffered"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.create_tensor", 
+            "paddle2.0": "paddle.create_tensor"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.scatter", 
+            "paddle2.0": "paddle.scatter"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.ExponentialDecay", 
+            "paddle2.0": "paddle.imperative.ExponentialDecay"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.TracedLayer", 
+            "paddle2.0": "paddle.imperative.TracedLayer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.floor", 
+            "paddle2.0": "paddle.floor"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.unstack", 
+            "paddle2.0": "paddle.unstack"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Sequential", 
+            "paddle2.0": "paddle.nn.Sequential"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.BackwardStrategy", 
+            "paddle2.0": "paddle.imperative.BackwardStrategy"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.stack", 
+            "paddle2.0": "paddle.stack", 
+            "rename": "x=input"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Embedding", 
+            "paddle2.0": "paddle.nn.Embedding"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.warpctc", 
+            "paddle2.0": "paddle.nn.functional.warpctc"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.cast", 
+            "paddle2.0": "paddle.cast"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.filter_by_instag", 
+            "paddle2.0": "paddle.nn.functional.filter_by_instag"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.cond", 
+            "paddle2.0": "paddle.where"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.MomentumOptimizer", 
+            "paddle2.0": "paddle.optimizer.MomentumOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.label_smooth", 
+            "paddle2.0": "paddle.nn.functional.label_smooth"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.RNNCell", 
+            "paddle2.0": "paddle.incubate.hapi.text.RNNCell"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.reduce_any", 
+            "paddle2.0": "paddle.reduce_any"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.gradients", 
+            "paddle2.0": "paddle.gradients"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.cos_sim", 
+            "paddle2.0": "paddle.metric.cos_sim"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.sign", 
+            "paddle2.0": "paddle.sign"
+        }, 
+        {
+            "add": "out=None|dtype=None|keepdims=False|name=None", 
+            "paddle.17": "paddle.fluid.layers.argmax", 
+            "paddle2.0": "paddle.argmax", 
+            "rename": "x=input"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.FtrlOptimizer", 
+            "paddle2.0": "paddle.optimizer.FtrlOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.save", 
+            "paddle2.0": "paddle.save"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.conv2d_transpose", 
+            "paddle2.0": "paddle.nn.functional.conv2d_transpose"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.cumsum", 
+            "paddle2.0": "paddle.cumsum"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.while_loop", 
+            "paddle2.0": "paddle.nn.while_loop"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.batch", 
+            "paddle2.0": "paddle.io.batch"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.load", 
+            "paddle2.0": "paddle.load"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.pad2d", 
+            "paddle2.0": "paddle.nn.functional.pad2d"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.switch_case", 
+            "paddle2.0": "paddle.nn.switch_case"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.ParallelExecutor", 
+            "paddle2.0": "paddle.ParallelExecutor"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.set_program_state", 
+            "paddle2.0": "paddle.io.set_program_state"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.row_conv", 
+            "paddle2.0": "paddle.nn.functional.row_conv"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.selu", 
+            "paddle2.0": "paddle.nn.functional.selu"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Conv3D", 
+            "paddle2.0": "paddle.nn.Conv3D"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.PiecewiseDecay", 
+            "paddle2.0": "paddle.imperative.PiecewiseDecay"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.program_guard", 
+            "paddle2.0": "paddle.program_guard"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.tanh", 
+            "paddle2.0": "paddle.tanh", 
+            "rename": "x=input"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.SGD", 
+            "paddle2.0": "paddle.optimizer.SGD"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.Variable", 
+            "paddle2.0": "paddle.Variable"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.ModelAverage", 
+            "paddle2.0": "paddle.optimizer.ModelAverage"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.gather_nd", 
+            "paddle2.0": "paddle.gather_nd"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.add_position_encoding", 
+            "paddle2.0": "paddle.nn.functional.add_position_encoding"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.argsort", 
+            "paddle2.0": "paddle.sort"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.DpsgdOptimizer", 
+            "paddle2.0": "paddle.optimizer.DpsgdOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.Adam", 
+            "paddle2.0": "paddle.optimizer.Adam"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.logical_not", 
+            "paddle2.0": "paddle.logical_not"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.save_inference_model", 
+            "paddle2.0": "paddle.io.save_inference_model"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.polygon_box_transform", 
+            "paddle2.0": "paddle.nn.functional.polygon_box_transform"
+        }, 
+        {
+            "add": "device=None|stop_gradient=True", 
+            "paddle.17": "paddle.fluid.layers.fill_constant", 
+            "paddle2.0": "paddle.full", 
+            "rename": "value=fill_value"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.assign", 
+            "paddle2.0": "paddle.nn.functional.assign"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.scope_guard", 
+            "paddle2.0": "paddle.scope_guard"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Pool2D", 
+            "paddle2.0": "paddle.nn.Pool2D"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.erf", 
+            "paddle2.0": "paddle.erf"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.abs", 
+            "paddle2.0": "paddle.abs"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.RMSPropOptimizer", 
+            "paddle2.0": "paddle.optimizer.RMSPropOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.ExecutionStrategy", 
+            "paddle2.0": "paddle.ExecutionStrategy"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.SpectralNorm", 
+            "paddle2.0": "paddle.nn.SpectralNorm"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.compose", 
+            "paddle2.0": "paddle.io.compose"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.square", 
+            "paddle2.0": "paddle.square"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.multiclass_nms", 
+            "paddle2.0": "paddle.nn.functional.multiclass_nms"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.acos", 
+            "paddle2.0": "paddle.acos"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.CosineDecay", 
+            "paddle2.0": "paddle.imperative.CosineDecay"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.sums", 
+            "paddle2.0": "paddle.sums"
+        }, 
+        {
+            "add": "dtype=None|device=None|name=None", 
+            "paddle.17": "paddle.fluid.layers.ones_like", 
+            "paddle2.0": "paddle.ones_like"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.Normal", 
+            "paddle2.0": "paddle.nn.initializer.Normal"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.less_equal", 
+            "paddle2.0": "paddle.less_equal"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.rpn_target_assign", 
+            "paddle2.0": "paddle.nn.functional.rpn_target_assign"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.beam_search_decode", 
+            "paddle2.0": "paddle.nn.beam_search_decode"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.hard_swish", 
+            "paddle2.0": "paddle.nn.functional.hard_swish"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.diag", 
+            "paddle2.0": "paddle.diag"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.load_program_state", 
+            "paddle2.0": "paddle.io.load_program_state"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.gather", 
+            "paddle2.0": "paddle.gather"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.PipelineOptimizer", 
+            "paddle2.0": "paddle.optimizer.PipelineOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.guard", 
+            "paddle2.0": "paddle.imperative.guard"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.greater_equal", 
+            "paddle2.0": "paddle.greater_equal"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.one_hot", 
+            "paddle2.0": "paddle.nn.functional.one_hot"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.CUDAPlace", 
+            "paddle2.0": "paddle.CUDAPlace"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.relu6", 
+            "paddle2.0": "paddle.nn.functional.relu6"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.ExponentialMovingAverage", 
+            "paddle2.0": "paddle.optimizer.ExponentialMovingAverage"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.elu", 
+            "paddle2.0": "paddle.nn.functional.elu"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.reduce_all", 
+            "paddle2.0": "paddle.reduce_all"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.pad_constant_like", 
+            "paddle2.0": "paddle.nn.functional.pad_constant_like"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.elementwise_min", 
+            "paddle2.0": "paddle.elementwise_min"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.elementwise_max", 
+            "paddle2.0": "paddle.elementwise_max"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.reduce_sum", 
+            "paddle2.0": "paddle.sum", 
+            "rename": "dim=axis"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.swish", 
+            "paddle2.0": "paddle.nn.functional.swish"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.initializer.TruncatedNormal", 
+            "paddle2.0": "paddle.nn.initializer.TruncatedNormal"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.firstn", 
+            "paddle2.0": "paddle.io.firstn"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.target_assign", 
+            "paddle2.0": "paddle.nn.functional.target_assign"
+        }, 
+        {
+            "add": "out=None", 
+            "delete": "act|axis", 
+            "paddle.17": "paddle.fluid.layers.elementwise_div", 
+            "paddle2.0": "paddle.div"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.prepare_context", 
+            "paddle2.0": "paddle.imperative.prepare_context"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.unique_with_counts", 
+            "paddle2.0": "paddle.unique_with_counts"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.Dpsgd", 
+            "paddle2.0": "paddle.optimizer.Dpsgd"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.BuildStrategy", 
+            "paddle2.0": "paddle.BuildStrategy"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.exp", 
+            "paddle2.0": "paddle.exp"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.atan", 
+            "paddle2.0": "paddle.atan", 
+            "rename": "x=input"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.clip", 
+            "paddle2.0": "paddle.nn.clip"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.matmul", 
+            "paddle2.0": "paddle.mm"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.LayerList", 
+            "paddle2.0": "paddle.nn.LayerList"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.reduce_prod", 
+            "paddle2.0": "paddle.reduce_prod"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.softplus", 
+            "paddle2.0": "paddle.nn.functional.softplus"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.thresholded_relu", 
+            "paddle2.0": "paddle.nn.functional.thresholded_relu"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.softsign", 
+            "paddle2.0": "paddle.nn.functional.softsign"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.clip.GradientClipByValue", 
+            "paddle2.0": "paddle.nn.GradientClipByValue"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.temporal_shift", 
+            "paddle2.0": "paddle.nn.functional.temporal_shift"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.slice", 
+            "paddle2.0": "paddle.slice"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.Print", 
+            "paddle2.0": "paddle.Print"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.py_func", 
+            "paddle2.0": "paddle.py_func"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.shard_index", 
+            "paddle2.0": "paddle.shard_index"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.logical_and", 
+            "paddle2.0": "paddle.logical_and"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.unfold", 
+            "paddle2.0": "paddle.nn.functional.unfold"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.to_variable", 
+            "paddle2.0": "paddle.imperative.to_variable"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.softshrink", 
+            "paddle2.0": "paddle.nn.functional.softshrink"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.Executor", 
+            "paddle2.0": "paddle.Executor"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Conv2DTranspose", 
+            "paddle2.0": "paddle.nn.Conv2DTranspose"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.multiplex", 
+            "paddle2.0": "paddle.multiplex"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.initializer.Uniform", 
+            "paddle2.0": "paddle.nn.initializer.Uniform"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.squeeze", 
+            "paddle2.0": "paddle.squeeze"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.create_parameter", 
+            "paddle2.0": "paddle.create_parameter"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.isfinite", 
+            "paddle2.0": "paddle.isfinite"
+        }, 
+        {
+            "add": "dtype=None|device=None|name=None", 
+            "paddle.17": "paddle.fluid.layers.zeros_like", 
+            "paddle2.0": "paddle.zeros_like", 
+            "rename": "x=input"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.LayerNorm", 
+            "paddle2.0": "paddle.nn.LayerNorm"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.CompiledProgram", 
+            "paddle2.0": "paddle.CompiledProgram"
+        }, 
+        {
+            "add": "out=None|device=None|name=None", 
+            "paddle.17": "paddle.fluid.layers.linspace", 
+            "paddle2.0": "paddle.linspace"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.sqrt", 
+            "paddle2.0": "paddle.sqrt"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.ceil", 
+            "paddle2.0": "paddle.ceil"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.elementwise_sub", 
+            "paddle2.0": "paddle.elementwise_sub"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.Ftrl", 
+            "paddle2.0": "paddle.optimizer.Ftrl"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.ParamAttr", 
+            "paddle2.0": "paddle.ParamAttr"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.flatten", 
+            "paddle2.0": "paddle.flatten"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.BilinearTensorProduct", 
+            "paddle2.0": "paddle.nn.BilinearTensorProduct"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.tanh_shrink", 
+            "paddle2.0": "paddle.nn.functional.tanh_shrink"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.NaturalExpDecay", 
+            "paddle2.0": "paddle.imperative.NaturalExpDecay"
+        }, 
+        {
+            "add": "out=None|stop_gradient=True", 
+            "delete": "batch_shape", 
+            "paddle.17": "paddle.fluid.layers.eye", 
+            "paddle2.0": "paddle.eye", 
+            "rename": "num_row=n|num_columns=m"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.expand", 
+            "paddle2.0": "paddle.expand"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.softmax", 
+            "paddle2.0": "paddle.nn.functional.softmax"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.ParameterList", 
+            "paddle2.0": "paddle.nn.ParameterList"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.is_empty", 
+            "paddle2.0": "paddle.is_empty"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.data", 
+            "paddle2.0": "paddle.data"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.Adagrad", 
+            "paddle2.0": "paddle.optimizer.Adagrad"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.Adadelta", 
+            "paddle2.0": "paddle.optimizer.Adadelta"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.load_inference_model", 
+            "paddle2.0": "paddle.io.load_inference_model"
+        }, 
+        {
+            "add": "out=None", 
+            "paddle.17": "paddle.fluid.layers.pow", 
+            "paddle2.0": "paddle.pow", 
+            "rename": "x=input|factor=exponet"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.create_global_var", 
+            "paddle2.0": "paddle.create_global_var"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.DGCMomentumOptimizer", 
+            "paddle2.0": "paddle.optimizer.DGCMomentumOptimizer"
+        }, 
+        {
+            "add": "out=None|device=None", 
+            "paddle.17": "paddle.fluid.layers.ones", 
+            "paddle2.0": "paddle.ones"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.reduce_mean", 
+            "paddle2.0": "paddle.reduce_mean"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.beam_search", 
+            "paddle2.0": "paddle.nn.beam_search"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.Program", 
+            "paddle2.0": "paddle.Program"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.greater_than", 
+            "paddle2.0": "paddle.greater_than"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.BeamSearchDecoder", 
+            "paddle2.0": "paddle.incubate.hapi.text.BeamSearchDecoder"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.crop_tensor", 
+            "paddle2.0": "paddle.crop_tensor"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.where", 
+            "paddle2.0": "paddle.where"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.concat", 
+            "paddle2.0": "paddle.concat"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Linear", 
+            "paddle2.0": "paddle.nn.Linear"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.elementwise_pow", 
+            "paddle2.0": "paddle.elementwise_pow"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.InverseTimeDecay", 
+            "paddle2.0": "paddle.imperative.InverseTimeDecay"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.chunk_eval", 
+            "paddle2.0": "paddle.metric.chunk_eval"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.elementwise_floordiv", 
+            "paddle2.0": "paddle.elementwise_floordiv"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.argmin", 
+            "paddle2.0": "paddle.argmin"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.rsqrt", 
+            "paddle2.0": "paddle.rsqrt"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.backward.append_backward", 
+            "paddle2.0": "paddle.append_backward"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.scatter_nd", 
+            "paddle2.0": "paddle.scatter_nd"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.shape", 
+            "paddle2.0": "paddle.shape"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.conv3d_transpose", 
+            "paddle2.0": "paddle.nn.functional.conv3d_transpose"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.contrib.BeamSearchDecoder", 
+            "paddle2.0": "paddle.incubate.hapi.text.BeamSearchDecoder"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.load", 
+            "paddle2.0": "paddle.load"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.hard_sigmoid", 
+            "paddle2.0": "paddle.nn.functional.hard_sigmoid"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.scale", 
+            "paddle2.0": "paddle.scale"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.reshape", 
+            "paddle2.0": "paddle.reshape"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.elementwise_mul", 
+            "paddle2.0": "paddle.elementwise_mul"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.global_scope", 
+            "paddle2.0": "paddle.global_scope"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.Momentum", 
+            "paddle2.0": "paddle.optimizer.Momentum"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.PolynomialDecay", 
+            "paddle2.0": "paddle.imperative.PolynomialDecay"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.conv3d", 
+            "paddle2.0": "paddle.nn.functional.conv3d"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.GroupNorm", 
+            "paddle2.0": "paddle.nn.GroupNorm"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Conv3DTranspose", 
+            "paddle2.0": "paddle.nn.Conv3DTranspose"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.expand_as", 
+            "paddle2.0": "paddle.expand_as"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.Uniform", 
+            "paddle2.0": "paddle.nn.initializer.Uniform"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.LookaheadOptimizer", 
+            "paddle2.0": "paddle.optimizer.LookaheadOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.unique", 
+            "paddle2.0": "paddle.unique"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.reverse", 
+            "paddle2.0": "paddle.reverse"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.mean_iou", 
+            "paddle2.0": "paddle.metric.mean_iou"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.soft_relu", 
+            "paddle2.0": "paddle.nn.functional.soft_relu"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.not_equal", 
+            "paddle2.0": "paddle.not_equal"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.SGDOptimizer", 
+            "paddle2.0": "paddle.optimizer.SGDOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.default_main_program", 
+            "paddle2.0": "paddle.default_main_program"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.continuous_value_model", 
+            "paddle2.0": "paddle.nn.functional.continuous_value_model"
+        }, 
+        {
+            "add": "out=None|alpha=1", 
+            "delete": "act|axis", 
+            "paddle.17": "paddle.fluid.layers.elementwise_add", 
+            "paddle2.0": "paddle.add"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.WeightNormParamAttr", 
+            "paddle2.0": "paddle.WeightNormParamAttr"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.increment", 
+            "paddle2.0": "paddle.increment"
+        }, 
+        {
+            "add": "out=None|device=None", 
+            "delete": "force_cpu", 
+            "paddle.17": "paddle.fluid.layers.zeros", 
+            "paddle2.0": "paddle.zeros"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.name_scope", 
+            "paddle2.0": "paddle.name_scope"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.initializer.Bilinear", 
+            "paddle2.0": "paddle.nn.initializer.Bilinear"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.initializer.Normal", 
+            "paddle2.0": "paddle.nn.initializer.Normal"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.logsigmoid", 
+            "paddle2.0": "paddle.nn.functional.logsigmoid"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.strided_slice", 
+            "paddle2.0": "paddle.strided_slice"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.cos", 
+            "paddle2.0": "paddle.cos"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.hard_shrink", 
+            "paddle2.0": "paddle.nn.functional.hard_shrink"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.has_inf", 
+            "paddle2.0": "paddle.has_inf"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.less_than", 
+            "paddle2.0": "paddle.less_than"
+        }, 
+        {
+            "add": "name=None", 
+            "delete": "cond", 
+            "paddle.17": "paddle.fluid.layers.equal", 
+            "paddle2.0": "paddle.elementwise_equal"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.save", 
+            "paddle2.0": "paddle.save"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.shuffle", 
+            "paddle2.0": "paddle.io.shuffle"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.brelu", 
+            "paddle2.0": "paddle.nn.functional.brelu"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.Adamax", 
+            "paddle2.0": "paddle.optimizer.Adamax"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.initializer.MSRA", 
+            "paddle2.0": "paddle.nn.initializer.MSRA"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.cache", 
+            "paddle2.0": "paddle.io.cache"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.initializer.Constant", 
+            "paddle2.0": "paddle.nn.initializer.Constant"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.default_startup_program", 
+            "paddle2.0": "paddle.default_startup_program"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.AdamOptimizer", 
+            "paddle2.0": "paddle.optimizer.AdamOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.conv2d", 
+            "paddle2.0": "paddle.nn.functional.conv2d"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.AdadeltaOptimizer", 
+            "paddle2.0": "paddle.optimizer.AdadeltaOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.DecayedAdagrad", 
+            "paddle2.0": "paddle.optimizer.DecayedAdagrad"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.Conv2D", 
+            "paddle2.0": "paddle.nn.Conv2D"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.dygraph.BatchNorm", 
+            "paddle2.0": "paddle.nn.BatchNorm"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.sum", 
+            "paddle2.0": "paddle.sum"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.gather_tree", 
+            "paddle2.0": "paddle.nn.gather_tree"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.io.xmap_readers", 
+            "paddle2.0": "paddle.io.xmap_readers"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.rank", 
+            "paddle2.0": "paddle.rank"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.hsigmoid", 
+            "paddle2.0": "paddle.nn.functional.hsigmoid"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.logical_or", 
+            "paddle2.0": "paddle.logical_or"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.optimizer.LarsMomentumOptimizer", 
+            "paddle2.0": "paddle.optimizer.LarsMomentumOptimizer"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.accuracy", 
+            "paddle2.0": "paddle.metric.accuracy"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.case", 
+            "paddle2.0": "paddle.nn.case"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.pad", 
+            "paddle2.0": "paddle.nn.functional.pad"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.reciprocal", 
+            "paddle2.0": "paddle.reciprocal"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.has_nan", 
+            "paddle2.0": "paddle.has_nan"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.stanh", 
+            "paddle2.0": "paddle.stanh"
+        }, 
+        {
+            "paddle.17": "paddle.fluid.layers.asin", 
+            "paddle2.0": "paddle.asin"
+        }
+    ]
+}
